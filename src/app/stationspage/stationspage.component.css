@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    border:0
+}
+.title{
+    width: 99vw;
+    height: 17vh;
+    background-color: #f8f8f8;
+    border-bottom: black 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title > h1{
+    font-size: 9vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

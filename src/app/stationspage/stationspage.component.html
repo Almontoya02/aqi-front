@@ -1,0 +1,7 @@
+<div class="title"><h1>Stations</h1></div>
+
+<hr>
+
+<div *ngFor="let stat of this.aqiService.listStation">
+    <app-cardstation [Aqi]="stat.aqi" [name]="stat.station.name" [id]="stat.uid" [color]="castAqiColor(stat.aqi)"></app-cardstation>
+</div>  

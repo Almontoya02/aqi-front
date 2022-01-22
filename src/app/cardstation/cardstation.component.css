@@ -1,0 +1,30 @@
+.content{
+    width: 95vw;
+    height: 10vh;
+    background-color: rgb(168, 139, 139);
+    border-radius: 2vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2vw;
+    flex-direction: row;
+}
+
+#green{
+    background-color: green !important;
+}
+#yellow{
+    background-color: yellow !important;
+}
+#orange{
+    background-color: orange !important;
+}
+#red{
+    background-color: red !important;
+}
+#violet{
+    background-color: rgb(133, 21, 133);
+}
+#darkviolet{
+    background-color: rgb(94, 8, 29);
+}
